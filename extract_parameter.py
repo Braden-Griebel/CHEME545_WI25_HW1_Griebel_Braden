@@ -1,3 +1,22 @@
+unit_operations_data = {
+    "distillation_column": {
+        "temperature": [150, 160, 170],
+        "pressure": [2, 2.5, 3],
+        "flow_rate": [100, 110, 120],
+    },
+    "reactor": {
+        "temperature": [250, 260, 270],
+        "pressure": [5, 5.5, 6],
+        "residence_time": [10, 12, 14],
+    },
+    "heat_exchanger": {
+        "temperature_in": [80, 90, 100],
+        "temperature_out": [50, 60, 70],
+        "flow_rate": [200, 210, 220],
+    },
+}
+
+
 # Function definition, with type hints describing the inputs and the return type (not required but can be helpful)
 def extract_parameter(unit_name: str, parameter_name: str, index: int) -> str:
     # Try, this will be the case when everything is found in the unit_operations_data
