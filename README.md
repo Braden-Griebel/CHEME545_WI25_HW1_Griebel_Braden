@@ -14,7 +14,7 @@ This repository contains python files for the first Homework in ChemE 545: Data 
 In order to use the python files in this repository, you will first need to clone the repo:
 
 ```{shell}
-git clone {{ github.repository }}
+git clone git@github.com:Braden-Griebel/CHEME545_WI25_HW1_Griebel_Braden.git
 ```
 
 Then you can create a new python file in the directory, and import the files
